@@ -1,5 +1,6 @@
 # Raspberry-pi-3-GPIO-and-DS1820
 Code et procedure pour colecter des mesures de température avec une sonde DS1820 via le GPIO d'une Raspberry pi 3
+https://pypi.org/project/w1thermsensor/
 
 Raspberry-pi-3 running Raspberry Pi OS
 
@@ -24,5 +25,4 @@ Trouver l'ID du DS1820 dans le CLI :
 ls /sys/bus/w1/devices/
 
 pip install w1thermsensor
-
 
