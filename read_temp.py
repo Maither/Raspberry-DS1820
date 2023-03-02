@@ -17,10 +17,12 @@ while True:
 
     # Add temperature and date/time to dict
     temperatures = {'temperature': temperature, 'datetime': dt_string}
+    print(temperatures)
 
     # Wait for 10 minutes
     time.sleep(600)
 
-Ce code utilise la bibliothèque w1thermsensor pour lire la température à partir du DS18B20, et la bibliothèque standard datetime pour enregistrer la date et l'heure de chaque lecture de température. La résolution est définie à 0.5°C avec la méthode set_resolution().
-
-Les valeurs de température et de date/heure sont stockées dans une liste appelée temperatures.
+#Ce code utilise la bibliothèque w1thermsensor pour lire la température à partir du DS18B20, 
+#et la bibliothèque standard datetime pour enregistrer la date et l'heure de chaque lecture de température. 
+#La résolution est définie à 0.5°C avec la méthode set_resolution().
+#Les valeurs de température et de date/heure sont stockées dans une liste appelée temperatures.
